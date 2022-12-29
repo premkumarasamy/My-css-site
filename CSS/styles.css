@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.top-cloud {
+  image-resolution: 50%;
+  position: absolute;
+  right: 170px;
+  top: 100px;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: 'Cinzel', serif;
+  margin: 50px 0 0 0;
+  color: #FF6E31;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Cinzel', serif;
+  color: #58287F;
+  font-weight: normal;
+}
+h3 {
+  color: #11999E;
+  font-family: 'Roboto Mono',monospace;
+}
+.Intro {
+  background-color: #A3C7D6;
+  position: relative;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.bottom-cloud {
+  position: relative;
+  bottom: 300px;
+  right: 100px;
+}
+
+.mountain-img {
+  position: relative;
+  right: 100px;
+}
+.skill-row {
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.netflix-img {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.contact-btn {
+  background:  #11cdd4;
+  background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 5px;
+  font-family: 'montserrat',sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container {
+  padding: 30px;
+  margin: 20px 0 0 0;
+   background-color: #66BFBF;
+   line-height: 2;
+}
+.end-cc {
+  margin: 0;
+}
+.contact-me {
+  line-height: 2;
+}
+.footer-link {
+  margin: 40px;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: bold;
+  color: #11999E;
+
+}
+a:hover {
+  color: white;
+  transition: 0.5s;
+}
+hr {
+  width: 4%;
+  margin:auto ;
+  border-style: dotted;
+  border-bottom: 0;
+  border-width: 8px;
+  color: black;
+}
